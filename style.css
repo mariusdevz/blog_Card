@@ -7,6 +7,7 @@
 body {
   background-color: whitesmoke;
   font-family: verdana, sans-serif;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

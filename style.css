@@ -10,12 +10,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 main {
-  width: 400px;
-  max-width: 450px;
+  width: 100%;
+  max-width: 400px;
   background-color: #ffff;
   padding: 15px;
   border-radius: 8px;
@@ -85,10 +84,6 @@ footer p {
 }
 
 @media (max-width: 375px) {
-  img {
-    background-image: url("resources/Cactus@2x.jpg");
-  }
-
   h2 {
     font-size: 18px;
   }

@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  width: 400px;
+  max-width: 450px;
+  background-color: #ffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+}
+
+h2 {
+  color: #1a1a1a;
+  opacity: 0.7;
+}
+
+p {
+  color: dimgray;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: purple;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: aliceblue;
+  width: max-content;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.line {
+  background-color: dimgray;
+  height: 0.8px;
+}
+
+footer p {
+  margin-bottom: -5px;
+  padding: 5px;
+}
+
+@media (max-width: 786px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  figcaption {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  img {
+    background-image: url("resources/Cactus@2x.jpg");
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  figcaption {
+    font-size: 13px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
